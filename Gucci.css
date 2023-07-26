@@ -1,0 +1,19 @@
+.gridcontainer{
+    display: grid;
+    grid-template-columns: repeat(2,1fr) ;
+   /* align-items: center;
+   gap: 1cm; */
+    grid-auto-rows: 100px;
+   
+  
+}
+.grid1{
+    background-color: green;
+    border: 1px solid black;
+    text-decoration-color: white;
+    color: red;
+    align-items: center;
+    text-align: center;
+    font-size: 40px;
+    
+}
